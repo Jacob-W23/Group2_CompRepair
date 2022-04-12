@@ -8,13 +8,13 @@ using Group2_CompRepair.Models;
 
 namespace Group2_CompRepair.Data
 {
-    public partial class Group2_ComprepairContext : DbContext
+    public partial class  Group2_ComprepairContext : DbContext
     {
-        public Group2_ComprepairContext()
+        public  Group2_ComprepairContext()
         {
         }
 
-        public Group2_ComprepairContext(DbContextOptions<Group2_ComprepairContext> options)
+        public  Group2_ComprepairContext(DbContextOptions< Group2_ComprepairContext> options)
             : base(options)
         {
         }
@@ -32,7 +32,7 @@ namespace Group2_CompRepair.Data
             modelBuilder.Entity<ComputerPart>(entity =>
             {
                 entity.HasKey(e => e.ComputerPartsId)
-                    .HasName("PK__Computer__592E0023FA54FA71");
+                    .HasName("PK__Computer__592E0023082B0834");
 
                 entity.ToTable("Computer_Parts");
 
@@ -160,7 +160,7 @@ namespace Group2_CompRepair.Data
             modelBuilder.Entity<PartsOrdersLinking>(entity =>
             {
                 entity.HasKey(e => e.PartsOrdersId)
-                    .HasName("PK__Parts_Or__DFAB96732C009132");
+                    .HasName("PK__Parts_Or__DFAB967356B6B449");
 
                 entity.ToTable("Parts_Orders_Linking");
 
@@ -215,7 +215,7 @@ namespace Group2_CompRepair.Data
             modelBuilder.Entity<SoftwareOrdersLinking>(entity =>
             {
                 entity.HasKey(e => e.SoftwareOrdersId)
-                    .HasName("PK__Software__01C332F8C8DFD0E3");
+                    .HasName("PK__Software__01C332F8E19EA0A1");
 
                 entity.ToTable("Software_Orders_Linking");
 

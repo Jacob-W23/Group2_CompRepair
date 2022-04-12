@@ -1,6 +1,6 @@
 ﻿{
    "CodeGenerationMode": 2,
-   "ContextClassName": "Group2_ComprepairContext",
+   "ContextClassName": " Group2_ComprepairContext",
    "ContextNamespace": "Data",
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
@@ -42,7 +42,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "DESKTOP-L27FDKD.Group2_CompRepair",
+   "UiHint": "willprecht.Group2_CompRepair",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDbContextSplitting": false,
